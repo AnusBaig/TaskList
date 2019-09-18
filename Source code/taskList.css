@@ -1,0 +1,20 @@
+header {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.list {
+    font-family: Roboto, sans-serif;
+}
+
+.list__item:hover {
+    background-color: lightgray;
+    font-weight: bold;
+    transition: background-color .3s;
+    cursor: pointer;
+}
+
+.delete__item {
+    position: absolute;
+    right: 1rem;
+    display: none;
+}

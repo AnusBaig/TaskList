@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task List</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap&subset=latin-ext"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap" rel="stylesheet">
+    <link href="taskList.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="card-header border-0 text-center text-danger">
+        <h1>Tasks</h1>
+    </header>
+    <main>
+        <ul id="taskList" class="list list-group card-body mx-4 list-group-flush">
+
+        </ul>
+
+        <br>
+
+        <form id="new-task-form" class="form-inline card-body">
+            <input type="text" class=" form-control border-danger ">
+            <input type="submit" value="Add task" class="btn btn-danger ml-3">
+        </form>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="taskList.js"></script>
+</body>
+
+</html>
